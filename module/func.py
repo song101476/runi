@@ -99,18 +99,18 @@ def sendButton(event):  #按鈕樣版
             template=ButtonsTemplate(
                 thumbnail_image_url='https://s.zimedia.com.tw/s/cjiiVt-1',  #顯示的圖片
                 title='利威爾做的仰望星空派',  #主標題
-                text='不管多難吃都要吃下去：',  #副標題
+                text='請選出正確的情境對話：',  #副標題
                 actions=[
                     MessageTemplateAction(  #顯示文字計息
-                        label='我就算中毒也要買',
+                        label='阿~這個看起來不錯吃呢',
                         text='@購買披薩'
                     ),
                     URITemplateAction(  #開啟網頁
-                        label='就算很難吃我也要吃',
+                        label='派上面插魚噁心死了ˋˊ',
                         uri='http://www.e-happy.com.tw'
                     ),
                     PostbackTemplateAction(  #執行Postback功能,觸發Postback事件
-                        label='就算掉地上也要撿',  #按鈕文字
+                        label='只要4你做的我全都要',  #按鈕文字
                         #text='@購買披薩',  #顯示文字計息
                         data='action=buy'  #Postback資料
                     ),
