@@ -102,15 +102,15 @@ def sendButton(event):  #按鈕樣版
                 text='不管多難吃都要吃下去：',  #副標題
                 actions=[
                     MessageTemplateAction(  #顯示文字計息
-                        label='文字訊息',
+                        label='我就算中毒也要買',
                         text='@購買披薩'
                     ),
                     URITemplateAction(  #開啟網頁
-                        label='連結網頁',
+                        label='就算很難吃我也要吃',
                         uri='http://www.e-happy.com.tw'
                     ),
                     PostbackTemplateAction(  #執行Postback功能,觸發Postback事件
-                        label='回傳訊息',  #按鈕文字
+                        label='就算掉地上也要撿',  #按鈕文字
                         #text='@購買披薩',  #顯示文字計息
                         data='action=buy'  #Postback資料
                     ),
